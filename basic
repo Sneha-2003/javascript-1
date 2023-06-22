@@ -1,0 +1,82 @@
+var x=10;
+var y=20;
+To print output-->console.log()
+ console.log(x+y)
+ 
+ 
+ Booleans
+console.log(true+1)-->2
+console.log(false+1)-->1
+console.log(true+true)-->2
+
+
+
+user input:
+     prompt(text,defaulttext)
+     text and defaultext(Optional)
+     prompt("Enter your name","Sneha")
+     
+     Math --> library
+Math.random()----> used to get random number (Output always ranges from 0 to 1  -->0 is inclusive and 1 is exclusive)
+var res=Math.ceil(Math.random()*100 +1)-->results ceil value
+var res=Math.floor(Math.random()*100 +1)-->results floor value
+
+console.log(res)
+
+if we want to display the random numbers between 1 to 100 so we multipled by 100 and added 1
+if we want to display the random numbers between 1 to 10 so we multipled by 10 and added 1
+
+Operators
+1)Arithmetic Operator(*,/,+,-)
+2)Shorthand Assignment Operator(+=,-=,*=,/=,%=)
+3)Logical Operator(&&,||,!)
+4) Equality operator(==,===)
+5) ternary operator( variablename=(condition)?true:false;
+6)The Nullish Coalescing Operator  (??)
+7)The Optional Chaining Operator (?.)
+
+x=5
+---->  ==	equal to	                    x == 8	false	
+                                        x == 5	true	
+                                        x == "5"	true	
+       ===	equal value and equal type	x === 5	true	
+                                        x === "5"	false
+
+
+
+---->Logical Operator
+&&) ->returns trueset and falseset value
+console.log('one'&&'') ->''
+console.log(''&&'one')   ->''
+console.log('one' && 'two') -> two
+
+||) ->returns trueset and falseset value
+console.log('one'||'') ->one
+console.log(''||'one')    ->one
+console.log('one' || 'two') ->one
+
+!) ->returns true or false boolean values
+true or false
+--->The Nullish Coalescing Operator (??)
+The ?? operator returns the first argument if it is not nullish (null or undefined).
+
+Otherwise it returns the second argument.
+
+Example
+let name = null;
+let text = "missing";
+let result = name ?? text;
+
+
+
+doubt--->The Optional Chaining Operator (?.)
+The ?. operator returns undefined if an object is undefined or null (instead of throwing an error).
+
+Example
+// Create an object:
+const car = {type:"Fiat", model:"500", color:"white"};
+// Ask for car name:
+document.getElementById("demo").innerHTML = car?.name;
+
+Logical Operator
+
